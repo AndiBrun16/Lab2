@@ -1,3 +1,5 @@
+package ro.ulbs.paradigme.lab2;
+
 public class Form {
 
     private String color;
@@ -7,7 +9,7 @@ public class Form {
         this.color = "white";
     }
 
-    
+
     public Form(String color) {
         this.color = color;
     }
