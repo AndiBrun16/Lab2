@@ -12,6 +12,9 @@ class Circle extends Form {
         this.radius = radius;
     }
 
+    public Circle(float v, String yellow) {
+    }
+
     @Override
     public float getArea() {
         return (float) (Math.PI * radius * radius);
